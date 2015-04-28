@@ -13,6 +13,8 @@
 		6F8EAE011AEE71DE00F44877 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8EAE001AEE71DE00F44877 /* Images.xcassets */; };
 		6F8EAE041AEE71DE00F44877 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8EAE021AEE71DE00F44877 /* LaunchScreen.xib */; };
 		6F8EAE101AEE71DE00F44877 /* BookKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EAE0F1AEE71DE00F44877 /* BookKeeperTests.swift */; };
+		6F8EAE1A1AEE756A00F44877 /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EAE191AEE756A00F44877 /* HTTPHelper.swift */; };
+		6F8EAE1C1AEE7AFC00F44877 /* KeyChainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EAE1B1AEE7AFC00F44877 /* KeyChainAccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6F8EAE091AEE71DE00F44877 /* BookKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8EAE0E1AEE71DE00F44877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F8EAE0F1AEE71DE00F44877 /* BookKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookKeeperTests.swift; sourceTree = "<group>"; };
+		6F8EAE191AEE756A00F44877 /* HTTPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHelper.swift; sourceTree = "<group>"; };
+		6F8EAE1B1AEE7AFC00F44877 /* KeyChainAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		6F8EADF61AEE71DE00F44877 /* BookKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				6F8EAE191AEE756A00F44877 /* HTTPHelper.swift */,
+				6F8EAE1B1AEE7AFC00F44877 /* KeyChainAccess.swift */,
 				6F8EADF91AEE71DE00F44877 /* AppDelegate.swift */,
 				6F8EADFB1AEE71DE00F44877 /* ViewController.swift */,
 				6F8EADFD1AEE71DE00F44877 /* Main.storyboard */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8EAE1A1AEE756A00F44877 /* HTTPHelper.swift in Sources */,
+				6F8EAE1C1AEE7AFC00F44877 /* KeyChainAccess.swift in Sources */,
 				6F8EADFC1AEE71DE00F44877 /* ViewController.swift in Sources */,
 				6F8EADFA1AEE71DE00F44877 /* AppDelegate.swift in Sources */,
 			);
