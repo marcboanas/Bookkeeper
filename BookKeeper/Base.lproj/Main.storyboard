@@ -49,14 +49,18 @@
                                     <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b6X-CJ-ECg"/>
                                 </connections>
                             </button>
-                            <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDi-nN-Nl7">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDi-nN-Nl7">
+                                <rect key="frame" x="200" y="162" width="200" height="200"/>
                                 <subviews>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="G83-mI-YPp">
-                                        <rect key="frame" x="282" y="281" width="37" height="37"/>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="4UU-Pm-lEB">
+                                        <rect key="frame" x="81" y="82" width="37" height="37"/>
                                     </activityIndicatorView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0ZE-bl-THh"/>
+                                    <constraint firstAttribute="height" constant="200" id="5Tg-Iu-ILU"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -65,10 +69,17 @@
                             <constraint firstAttribute="centerX" secondItem="sBH-3V-Vph" secondAttribute="centerX" constant="-0.5" id="7Sm-cO-yvt"/>
                             <constraint firstAttribute="centerX" secondItem="YyA-WT-JOg" secondAttribute="centerX" constant="-0.5" id="H1O-3j-TTo"/>
                             <constraint firstItem="YyA-WT-JOg" firstAttribute="top" secondItem="ZcY-2T-irn" secondAttribute="bottom" constant="8" id="KRk-DQ-vzE"/>
+                            <constraint firstAttribute="centerX" secondItem="gDi-nN-Nl7" secondAttribute="centerX" id="LRO-re-8KL"/>
+                            <constraint firstAttribute="centerY" secondItem="gDi-nN-Nl7" secondAttribute="centerY" constant="38" id="Uga-Wz-K4q"/>
                             <constraint firstAttribute="centerX" secondItem="ZcY-2T-irn" secondAttribute="centerX" constant="-0.5" id="a3b-6B-Vk6"/>
                             <constraint firstItem="ZcY-2T-irn" firstAttribute="top" secondItem="sBH-3V-Vph" secondAttribute="bottom" constant="8" id="mU7-If-cNt"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="activityIndictorView" destination="gDi-nN-Nl7" id="ANx-CG-Cz7"/>
+                        <outlet property="emailTextField" destination="sBH-3V-Vph" id="afd-xe-nB7"/>
+                        <outlet property="passwordTextField" destination="ZcY-2T-irn" id="xZi-ZT-qpq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

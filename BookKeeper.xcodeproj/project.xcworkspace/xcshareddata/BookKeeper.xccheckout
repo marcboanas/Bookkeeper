@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4D8EC23B-1D50-40C9-AD45-7C8B57848E71</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BookKeeper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DDA2864DB3EB8B4D611A1578C3A7267FBB10048D</key>
+		<string>github.com:marcboanas/Bookkeeper.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BookKeeper.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DDA2864DB3EB8B4D611A1578C3A7267FBB10048D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:marcboanas/Bookkeeper.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DDA2864DB3EB8B4D611A1578C3A7267FBB10048D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DDA2864DB3EB8B4D611A1578C3A7267FBB10048D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BookKeeper</string>
+		</dict>
+	</array>
+</dict>
+</plist>
